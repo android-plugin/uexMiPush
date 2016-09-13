@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        className="org.zywx.wbpalmstar.plugin.uexmipush.EUExMiPush" uexName="uexMiPush">
+        <method name="registerPush" type="0" />
+        <method name="unregisterPush" type="0" />
+        <method name="setAlias" type="0" />
+        <method name="unsetAlias" type="0" />
+        <method name="setUserAccount" type="0" />
+        <method name="unsetUserAccount" type="0" />
+        <method name="subscribe" type="0" />
+        <method name="unsubscribe" type="0" />
+        <method name="getRegId" type="0" />
+        <method name="getAllAlias" type="1" />
+        <method name="getAllTopic" type="1" />
+        <method name="setAcceptTime" type="0" />
+
+        <method name="onReceivePassThroughMessage" type="2" />
+        <method name="onNotificationMessageClicked" type="2" />
+        <method name="onNotificationMessageArrived" type="2" />
+        <method name="onCommandResult" type="2" />
+        <method name="onReceiveRegisterResult" type="2" />
+
+    </plugin>
+</uexplugins>

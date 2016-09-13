@@ -1,2 +1,3 @@
-# uexMiPush
-小米推送
+# uexRongCloud
+融云即时通讯插件
+

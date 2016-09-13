@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin className="org.zywx.wbpalmstar.plugin.uexmipush.EUExMiPush" uexName="uexMiPush">
+        <method name="registerPush"/>
+        <method name="unregisterPush"/>
+        <method name="setAlias"/>
+        <method name="unsetAlias"/>
+        <method name="setUserAccount"/>
+        <method name="unsetUserAccount"/>
+        <method name="subscribe"/>
+        <method name="unsubscribe"/>
+        <method name="getRegId"/>
+        <method name="getAllAlias"/>
+        <method name="getAllTopic"/>
+        <method name="setAcceptTime"/>
+        <method name="registerCallback"/>
+    </plugin>
+</uexplugins>
